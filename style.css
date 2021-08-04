@@ -109,3 +109,30 @@ h3 {
       margin-top:30px;
       padding-left: 50px;;
   }
+
+  @media (max-width: 600px) {
+    
+    .sluzby_popis,
+    .onas_popis,
+    .kontakty_popis {
+        width: 90%;
+        height: auto;
+    }
+
+    iframe {
+        width: 500px;
+        height: 300px;
+    }
+
+    .hlava_center {
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+    }
+
+    .nadpis,
+    .aktuality{
+        margin:20px 50px;
+    }
+
+  }
